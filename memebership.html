@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="side-bar.css">
+    <link rel="stylesheet" href="main-membership.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energym</title>
+</head>
+<body>
+    <div id="navigation-bar">
+        <navbar id="bar">
+        <nav><a href="index.html"><img id="logo" src="LogoMakr-6ipCkq.png"></a></nav> 
+            <nav class="navigator"><button class="nav-btn">Mitgliedschaft</button></nav>
+            <nav class="navigator"><a href="courses.html"><button class="nav-btn">Kurse</button></a></nav>
+            <nav class="navigator"><a href="training.html"><button class="nav-btn">Probetraining</button></a></nav>
+            <nav class="navigator"><a href="concept.html"><button class="nav-btn">Unser Konzept</button></a></nav>
+            <nav class="navigator"><a href="contacts.html"><button class="nav-btn">Kontakt</button></a></nav>
+        </navbar>
+    </div>  
+    <div id="main-content">
+        <h1 id="myh1"><strong><u>Mitgliedschaften</u></strong></h1>
+        <div id="membership-container">
+            <div id="register">
+                <h2 id="register-head">Register-Informationen</h2>
+                <form name="membership-registeration">
+                    <div class="double-container">
+                        <label class="register-label">
+                            <input class="text-field" type="text" name="first name" required>
+                            Vorname
+                        </label>
+                        <label class="register-label">
+                            <input class="text-field" type="text" name="last name" required>
+                            Nachname
+                        </label>
+                    </div>
+                    <div class="double-container">
+                        <label class="register-label">
+                            <input class="text-field" type="text" name="phone number" required>
+                            Telefonnummer
+                        </label>
+                        <label class="register-label">
+                            <input class="text-field" type="e-mail" name="e-mail-adress" required>
+                            E-Mail-Adresse
+                        </label>
+                    </div>
+                    <div class="double-container">
+                        <label class="register-label">
+                            <input class="text-field" type="text" name="adress" required>
+                            Adresse
+                        </label>
+                        <label class="register-label">
+                            <input class="text-field" type="text" name="city" required>
+                            Postleitzahl
+                        </label>
+                    </div>
+                    <label id="check-label">Datenschutzerklärung (Ein Preis von 19,90€ wird vor Ort bezahlt)
+                        <input type="checkbox" required>
+                    </label>
+                    <button id="submit-btn" type="submit" name="membership-registeration">Bestätigen</button>
+                </form>
+            </div>
+            <div id="time-register">
+                <h2 id="register-head">Register-Zeit</h2>
+                    <div id="time-container">
+                        <div>
+                    <form name="times">
+                            <label id="register-label"><span>Anfangs Datum der Mitgliedschaft:</span>
+                                <input type="date" name="start date" required>
+                            </label>
+                        </div>
+                        <hr>
+                        <div>
+                            <label id="register-label"><span>End Datum der Mitgliedschaft:</span>
+                                <input type="date" name="end date" required>
+                            </label>
+                        </div>
+                        <a href="courses-complete.html"><button type="submit" id="submit-btn-i" name="times">Abschließen</button></a>
+                    </form>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
