@@ -1,0 +1,32 @@
+#second-nav{
+    background-color: rgb(166, 201, 92);
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 76px;
+    left: 0px;
+    border-right:rgb(155, 70, 22) 6px solid; 
+}
+#second-bar{
+    display: flex;
+    flex-direction: column;
+}
+.navigator2{
+    text-align: center;
+    color: rgb(164, 90, 82);
+    font-size: 25px; 
+    margin-top: 20px; 
+}
+.navigator2:hover{
+    animation-name: page-navigator;
+    animation-duration: 0,5s;
+    animation-fill-mode: forwards;
+}
+@keyframes page-navigator{
+    0%{
+        transform: scale(100%);
+    }
+    100%{
+        transform: scale(120%);
+    }
+}
